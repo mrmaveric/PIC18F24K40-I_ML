@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name _PIC18F24K40)(type KiCad)(uri ${KIPRJMOD}/libs/PIC18F24K40.pretty)(options "")(descr ""))
+)
