@@ -10,6 +10,12 @@ $CMP ICSP
 F ~
 $ENDCMP
 #
+$CMP LM2931AD-5.0R2G
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP R_Small_US
 D Resistor, small US symbol
 K r resistor
