@@ -6,6 +6,11 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP GND
+D Power flag, ground
+K power-flag
+$ENDCMP
+#
 $CMP ICSP
 F ~
 $ENDCMP
@@ -20,6 +25,11 @@ $CMP R_Small_US
 D Resistor, small US symbol
 K r resistor
 F ~
+$ENDCMP
+#
+$CMP VCC
+D Power flag, VCC
+K power-flag
 $ENDCMP
 #
 #End Doc Library
