@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3v
+D Power flag, VCC
+K power-flag
+$ENDCMP
+#
 $CMP +UNREG
 D Power flag, VCC
 K power-flag
@@ -23,6 +28,18 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP FT231XQ
+D Full Speed USB to Full Handshake UART, QFN-20
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT231X.html
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
 $CMP GND
 D Power flag, ground
 K power-flag
@@ -38,9 +55,21 @@ K Voltage Regulator 100mA Positive
 F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
 #
+$CMP PWR_FLAG
+D Power flag, general
+K power-flag
+F ~
+$ENDCMP
+#
 $CMP R_Small_US
 D Resistor, small US symbol
 K r resistor
+F ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
 F ~
 $ENDCMP
 #

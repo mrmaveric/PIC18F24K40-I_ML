@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3v
+D Power flag, VCC
+K power-flag
+$ENDCMP
+#
 $CMP +UNREG
 D Power flag, VCC
 K power-flag
@@ -11,10 +16,22 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP Conn_01x13
+D Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_01x14
 D Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP FT231XQ
+D Full Speed USB to Full Handshake UART, QFN-20
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT231X.html
 $ENDCMP
 #
 $CMP GND
@@ -35,6 +52,12 @@ $ENDCMP
 $CMP R_Small_US
 D Resistor, small US symbol
 K r resistor
+F ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
 F ~
 $ENDCMP
 #
