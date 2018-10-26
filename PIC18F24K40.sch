@@ -1971,6 +1971,8 @@ F 0 "SW1" V 3750 6200 50  0000 R CNN
 F 1 "SW_SPST" V 3600 6300 50  0000 R CNN
 F 2 "_PIC18F24K40:SW_SPST_B3U-1000P" H 3700 5900 50  0001 C CNN
 F 3 "" H 3700 5900 50  0001 C CNN
+F 4 "Omron Electronics Inc-EMC Div" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "B3U-1000P" H 0   0   50  0001 C CNN "Manufacturer Part Number"
 	1    3700 5900
 	0    -1   -1   0   
 $EndComp
@@ -1989,6 +1991,7 @@ Wire Wire Line
 	3700 6150 3700 6100
 Wire Wire Line
 	3700 5700 3700 5650
+Connection ~ 3700 5650
 Wire Bus Line
 	6400 5750 6400 6550
 Wire Bus Line
@@ -1999,5 +2002,4 @@ Wire Bus Line
 	7050 4100 7050 5550
 Wire Bus Line
 	3400 4100 3400 5650
-Connection ~ 3700 5650
 $EndSCHEMATC
