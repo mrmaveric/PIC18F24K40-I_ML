@@ -1969,4 +1969,8 @@ Wire Bus Line
 	7050 4100 7050 5550
 Wire Bus Line
 	3400 4100 3400 5650
+Text Notes 7900 4550 0    50   ~ 0
+Alternate part number for female header:\nPPTC131LFBN-RC
+Text Notes 8100 3150 0    50   ~ 0
+Alternate part number for right angle\nPRPC006SBAN-M71RC
 $EndSCHEMATC
