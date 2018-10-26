@@ -67,6 +67,11 @@ K r resistor
 F ~
 $ENDCMP
 #
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro

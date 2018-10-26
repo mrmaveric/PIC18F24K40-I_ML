@@ -1959,6 +1959,36 @@ Wire Wire Line
 Wire Wire Line
 	6000 1650 6650 1650
 Connection ~ 6650 2400
+Text Notes 7900 4550 0    50   ~ 0
+Alternate part number for female header:\nPPTC131LFBN-RC
+Text Notes 8100 3150 0    50   ~ 0
+Alternate part number for right angle\nPRPC006SBAN-M71RC
+$Comp
+L _PIC18F24K40:SW_SPST SW1
+U 1 1 5BD32462
+P 3700 5900
+F 0 "SW1" V 3750 6200 50  0000 R CNN
+F 1 "SW_SPST" V 3600 6300 50  0000 R CNN
+F 2 "_PIC18F24K40:SW_SPST_B3U-1000P" H 3700 5900 50  0001 C CNN
+F 3 "" H 3700 5900 50  0001 C CNN
+	1    3700 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L _PIC18F24K40:GND #PWR01
+U 1 1 5BD325E7
+P 3700 6150
+F 0 "#PWR01" H 3700 5900 50  0001 C CNN
+F 1 "GND" H 3705 5977 50  0000 C CNN
+F 2 "" H 3700 6150 50  0001 C CNN
+F 3 "" H 3700 6150 50  0001 C CNN
+	1    3700 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6150 3700 6100
+Wire Wire Line
+	3700 5700 3700 5650
 Wire Bus Line
 	6400 5750 6400 6550
 Wire Bus Line
@@ -1969,8 +1999,5 @@ Wire Bus Line
 	7050 4100 7050 5550
 Wire Bus Line
 	3400 4100 3400 5650
-Text Notes 7900 4550 0    50   ~ 0
-Alternate part number for female header:\nPPTC131LFBN-RC
-Text Notes 8100 3150 0    50   ~ 0
-Alternate part number for right angle\nPRPC006SBAN-M71RC
+Connection ~ 3700 5650
 $EndSCHEMATC
