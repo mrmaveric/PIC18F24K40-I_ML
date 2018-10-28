@@ -49,6 +49,12 @@ $CMP ICSP
 F ~
 $ENDCMP
 #
+$CMP LED_Small
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F ~
+$ENDCMP
+#
 $CMP LM2931AD-5.0R2G
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
 K Voltage Regulator 100mA Positive
@@ -58,6 +64,12 @@ $ENDCMP
 $CMP PWR_FLAG
 D Power flag, general
 K power-flag
+F ~
+$ENDCMP
+#
+$CMP Q_Photo_NPN
+D NPN phototransistor, collector/emitter
+K phototransistor NPN
 F ~
 $ENDCMP
 #
